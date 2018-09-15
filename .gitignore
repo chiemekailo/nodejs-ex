@@ -1,2 +1,2 @@
-/node_modules/
-npm-debug.log
+.env
+akm_get_checksum_index.js

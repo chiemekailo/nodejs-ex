@@ -1,34 +1,39 @@
 {
-  "name": "nodejs-ex",
-  "version": "0.0.1",
-  "description": "Node.js sample app for OpenShift 3",
-  "main": "server.js",
-  "dependencies": {
-    "chai": "^3.5.0",
-    "chai-http": "^2.0.1",
-    "ejs": "^2.4.1",
-    "express": "^4.13.4",
-    "mocha": "^2.4.5",
-    "mongodb": "^2.1.16",
-    "morgan": "^1.7.0",
-    "object-assign": "4.1.0"
-  },
-  "engine": {
+  "name": "app-name",
+  "version": "0.1.0",
+  "description": "My Description",
+  "engines": {
     "node": "*",
     "npm": "*"
   },
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/sclorg/nodejs-ex.git"
+    "url": "https://github.com/chiemekailo/AppCedar-solutions-base.git"
   },
-  "author": "Steve Speicher <sspeiche@gmail.com>",
-  "license": "CC-BY-1.0",
-  "bugs": {
-    "url": "http://github.com/sclorg/nodejs-ex/issues"
-  },
-  "homepage": "http://github.com/sclorg/nodejs-ex"
+  "dependencies": {
+    "bitcoinjs-lib": "^3.3.2",
+    "bitcore-lib": "^8.0.0",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.0",
+    "crc-32": "^1.2.0",
+    "del": "2.2.0",
+    "express": "^4.14.0",
+    "google-translate-api": "^2.3.0",
+    "http": "0.0.0",
+    "lodash": "^4.17.11",
+    "method-override": "^2.3.6",
+    "morgan": "^1.7.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1",
+    "nodemailer": "^4.6.7",
+    "request": "^2.87.0",
+    "socksjs": "^0.5.0",
+    "tiny-worker": "^2.1.2",
+    "webworker-threads": "^0.7.16",
+    "window": "^4.2.5"
+  }
 }
